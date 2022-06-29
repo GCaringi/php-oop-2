@@ -38,7 +38,7 @@ class User{
         return $this->credit_card;
     }
 
-    public function setDiscont($new_discount){
+    public function setDiscount($new_discount){
         $this->discount = $new_discount;
     }
 

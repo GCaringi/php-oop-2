@@ -16,6 +16,27 @@ class Credit{
         $this->owner = $_owner;
         $this->cvc = $_cvc;
     }
+
+    public function getNumber(){
+        return $this->number;
+    }
+
+    public function getExpire(){
+        return $this->expire_date;
+    }
+
+    public function getBrand(){
+        return $this->brand;
+    }
+
+    public function getOwner(){
+        return $this->owner;
+    }
+
+    public function getCvc(){
+        return $this->cvc;
+    }
+
 }
 
 
